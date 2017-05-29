@@ -1,0 +1,9 @@
+<ValCurs Date="30.05.2017" name="test">
+   <Valute ID="R00000">
+      <CharCode>RUB</CharCode>
+      <NumCode>643</NumCode>
+      <Nominal>1</Nominal>
+      <Name>Российский рубль</Name>
+      <Value>1</Value>
+   </Valute>
+</ValCurs>

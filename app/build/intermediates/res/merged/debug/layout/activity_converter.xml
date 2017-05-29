@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_converter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/AppTheme"
+    android:orientation="vertical"
+    tools:context="ru.sberbank.sberconvert.view.ConverterActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/header"
+        style="@style/AppTheme.HeaderFooter"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="@dimen/header_footer_height">
+
+        <ImageView
+            android:layout_width="@dimen/icon_sides"
+            android:layout_height="@dimen/icon_sides"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/icon"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_above="@+id/footer"
+        android:layout_below="@+id/header"
+        style="@style/AppTheme.MainContent">
+
+
+
+        <Spinner
+            android:id="@+id/from_spinner"
+            android:backgroundTint="@color/colorIcons"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spinner_height"
+            android:prompt="@string/from_prompt"/>
+        <EditText
+            style="@style/AppTheme.Text"
+            android:id="@+id/from_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"/>
+        <Spinner
+            android:id="@+id/to_spinner"
+            android:backgroundTint="@color/colorIcons"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spinner_height"
+            android:layout_marginTop="@dimen/small_margins"
+            android:prompt="@string/to_prompt"/>
+
+        <TextView
+            style="@style/AppTheme.Text"
+            android:id="@+id/to_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <Button
+            style="@style/AppTheme.Button"
+            android:id="@+id/convert_button"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/large_margins"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="convert"
+            android:text="@string/button_caption"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_footer_height"
+        android:layout_alignParentBottom="true"
+        style="@style/AppTheme.HeaderFooter">
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/reverse_button"
+            app:backgroundTint="@color/colorIcons"
+            android:src="@drawable/ic_cached_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/AppThemeIcons"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:onClick="reverse"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

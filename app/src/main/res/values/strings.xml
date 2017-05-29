@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SberConvert</string>
+    <string name="fetch_error">An error was encountered while doing IO</string>
+    <string name="parser_error_message">A error was encountered while parsing XML</string>
+    <string name="button_caption">Конвертировать</string>
+    <string name="from_prompt">Выберите исходный валют</string>
+    <string name="to_prompt">Выберите целевой валют</string>
+    <string name="required_error">Пожалуйста, выберите валюты и введите сумму!</string>
+    <string name="not_loaded_error">Операция не может быть выполнен так как не удалось Загрузить курсы валюта</string>
+</resources>
+
