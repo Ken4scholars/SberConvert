@@ -3098,8 +3098,6 @@ containing a value of this type.
         public static final int Animation_Design_BottomSheetDialog=0x7f0900a6;
         public static final int AppTheme=0x7f0900a7;
         public static final int AppTheme_Button=0x7f0900a8;
-        /** <item name="android:textColorSecondary">@android:color/white</item>
-         */
         public static final int AppTheme_HeaderFooter=0x7f0900a9;
         public static final int AppTheme_MainContent=0x7f0900aa;
         public static final int AppTheme_Style_Spinner=0x7f0900ab;

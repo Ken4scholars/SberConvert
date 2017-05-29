@@ -5,22 +5,22 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="14637304183733"
+    timestamp="20193755274514"
     token="2857800365796713412"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1015" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="215" />
+        duration="49" />
     <task
         name="verifier"
-        duration="21" />
+        duration="0" />
 
     <artifact
         location="/home/kenneth/AndroidStudioProjects/SberConvert/app/build/outputs/apk/app-debug.apk"

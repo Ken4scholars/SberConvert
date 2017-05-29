@@ -1,4 +1,4 @@
-#Tue May 30 00:02:54 MSK 2017
+#Tue May 30 01:35:29 MSK 2017
 base.0=/home/kenneth/AndroidStudioProjects/SberConvert/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e801648468563f2fab32f024fe78d08acfeea4af
 renamed.1=classes.dex
 renamed.0=classes2.dex
